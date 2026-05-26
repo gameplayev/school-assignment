@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #rd{
+        position: absolute;
+        width: 5em;
+        height: 5em;
+        background-color: red;
+        z-index: 0;
+
+    }
+    #yel{
+        position: absolute;
+        width: 20em;
+        height: 20em;
+        background-color: yellow;
+        left: 5em;
+        top: 10em;
+        z-index: 0;
+
+    }
+    #gr{
+        position: absolute;
+        z-index: 1;
+        width: 5em;
+        height: 5em;
+        background-color: green;
+        left: 10em;
+        top: 10em;
+    }
+    #bl{
+        left: 10em;
+        top: 20em;
+        position: absolute;
+        width: 5em;
+        height: 5em;
+        background-color: blue;
+    }
+</style>
+<body>
+    <a class="main-home-button" href="../index.html" style="position: fixed; right: 16px; top: 16px; z-index: 9999; display: inline-block; padding: 10px 14px; border: 1px solid #111827; border-radius: 6px; background: aqua; color: #111827; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; line-height: 1; text-decoration: none; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);">메인으로 돌아가기</a>
+    <div id="rd"> </div>
+    <div id = "yel"></div>
+    <div id ="gr"></div>
+    <div id="bl"></div>
+</body>
+</html>
